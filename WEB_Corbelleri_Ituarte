@@ -1,15 +1,17 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Un Show Mas</title>
     </head>
+    
     <body>
         <body bgcolor="#FFFF7A" text="#7C0000">
         <h1>Benson</h1>
 
-        <p>Como tan muchachos.</p>
-        <p>Yo los veo muy muy bien. Creo que merecen una recompensa.</p>
+        <p>C&oacute;mo tan muchachos?</p>
+        <p>Yo los veo muy bien. Creo que merecen una recompensa.</p>
 
         <ul>
             <li type="circle">Esto es un tipo de punto.</li>
@@ -24,5 +26,26 @@
         </ol>
 
         <a href="https://www.youtube.com/watch?v=gYnflkL-s_I">Como tan muchachos</a>
+
+        <table border="2">
+            <tr>
+                <td>Costos</td>
+                <td>Producci&oacute;n</td>
+                <td>Diseño y Fotograf&iacute;a</td>
+                <td>Docencia y Educaci&oacute;n</td>
+            </tr>
+            <tr>
+                <td>Microfon&iacute;a</td>
+                <td>Hardware</td>
+                <td>Software</td>
+                <td>Backline</td>
+            </tr>
+            <tr>
+                <td>Logotipos</td>
+                <td>Cover Art</td>
+                <td>Photoshoot</td>
+                <td>Diseño Ac&uacute;stico</td>
+            </tr>
+        </table border="2">
     </body>
 </html>
