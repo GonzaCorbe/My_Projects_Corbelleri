@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>P&aacute;gina Principal</title>
+        <title>Formulario</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/miestilo.css">
+        <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
     </head>
 
     <body>
         <header>
-            <a href="../index.html" class="logo">
-                
+            <a href="../index.html" class="logo">  
             </a>
-
+            
             <nav>
                 <ul>
-                    <button><a href="../index.html">INICIO</a></button>
-                    <button><a href="#">FORMULARIO</a></button>
-                    <button><a href="../marcas principales/index.html">MARCAS PRINCIPALES</a></button>
-                    <button><a href="../contacto/index.html">CONTACTO</a></button>
+                    <p><a href="../index.html">INICIO</a></p>
+                    <p><a href="#">FORMULARIO</a></li></p>
+                    <p><a href="../marcas principales/index.html">MARCAS PRINCIPALES</a></p>
+                    <p><a href="../contacto/index.html">CONTACTO</a></p>
                 </ul>
             </nav>
         </header>
         
-        <br><br>
+        <br>
 
+        <h1>Formulario</h1>
         <article>
-            <h1>Formulario</h1>
-            <form class="form" id="form">
-                <input type="text" name="nombre" class="inputs" id="nombre" placeholder="Nombre:" required minlength="3">
-				<input type="text" name="apellido" class="inputs" id="apellido" placeholder="Apellido:" required minlength="3">
-                <br><br>
-				<input type="email" name="mail" class="inputs" id="mail" placeholder="Email:" required="">
-				<br><br>
-				<textarea placeholder="Escriba un mensaje" name="textarea" class="inputs" id="textarea"></textarea>
-				<br><br>
-				<input class="enviar" type="submit">
-				<input class="enviar" type="reset">
+            <form action="tu-accion.php" method="post">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre:" required minlength="4"><br><br>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido:" required minlength="4"><br><br>
+                <input type="email" id="email" name="email" placeholder="Email:" required><br><br><br>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje:" required></textarea><br><br>
+                <button type="submit">Enviar</button>
             </form>
         </article>
     </body>

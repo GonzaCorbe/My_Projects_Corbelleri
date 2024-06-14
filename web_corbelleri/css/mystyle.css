@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul p {
+    margin: 0 1px; /* Espacio entre las palabras */
+}
+
+nav ul p a {
+    color: #f7f7f7; /* Color de la fuente en gris */
+    text-decoration: none;
+    padding: 10px 15px; /* Añade relleno alrededor de las palabras */
+    display: block;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul p a:hover {
+    color: #8f0000; /* Color al pasar el ratón por encima (opcional) */
+}
+
+h1 {
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+
+header {
+    display:flex;
+    background-color:#000000;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+}
+
+.marcasprincipales {
+    display: flex;
+    justify-content: center;
+}
+
+.marcasprincipales img {
+    height: 300px; 
+    width: auto;
+    margin: 0 10px;
+}
+
+.fotosilustrativas{
+    display: flex;
+    justify-content: center;
+}
+
+.fotosilustrativas img {
+    height: 300px;
+    width: auto;
+    margin: 0 5px;
+}
+
+article {
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+button {
+    background-color: #8f0000;
+    color: #f7f7f7;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+button:hover {
+    background-color: #610000;
+}
