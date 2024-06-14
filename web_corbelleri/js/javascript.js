@@ -18,3 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+window.addEventListener('resize', function() {
+    if (window.innerWidth > 768) {
+    } else {
+    }
+});
